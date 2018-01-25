@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+form {
+    border: solid 1px #000000;
+    display: inline-table;
+}
+
+div {
+    display: table-row;
+    width: 100%
+}
+
+input {
+    border: none;
+    border-radius: 0;
+    font-size: 20px;
+    color: white;
+    background-color: pink;
+    width: 25%;
+    height: 50px;
+}
+
+input:focus {
+    border: none;
+}
+
+input[type=number] {
+    width: 98%;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    border-bottom: solid 1px #000000;
+    background-color: transparent;
+}

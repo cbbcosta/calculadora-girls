@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+input {
+    background-color: pink;
+    color: white;
+}
+
+input[type=number] {
+    background-color: transparent;
+    color: black;
+}
+
+input[type=button] {
+    border: none;
+}
+
+input[type=submit] {
+    border: none;
+}
+
+form {
+    display: inline-block;
+    border: solid 1px #000000;
+}
